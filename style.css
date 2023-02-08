@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: 'Roboto';
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(151.79deg, #0F2B05 4.34%, #000000 87.6%);
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    padding: 50px 0px 25px 0px;
+}
+
+.card{
+    width: 354px;
+    height: 508px;
+    background-image: url(./assets/bg-ignite.svg);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 100px 0px 110px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.info{
+    text-align: left;
+    margin-left: 70px;
+    color: white;
+}
+
+.info h1 {
+    font-size: 18px;
+    line-height: 140%;
+  }
+  
+  .info p {
+    font-size: 14px;
+    line-height: 160%;
+  }
