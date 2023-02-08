@@ -5,3 +5,5 @@ function changeCard(event) {
   isIgnite = !isIgnite
   card.style.backgroundImage = `url(./assets/bg-${bg}.svg)`
 }
+
+// Rocketseat
